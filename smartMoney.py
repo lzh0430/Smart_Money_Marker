@@ -80,7 +80,7 @@ class SmartMoneyFollower:
         headers = [
             "Rank",
             "Wallet Address",
-            "Realized Profit (SOL or USD)",
+            "Realized Profit (USD, in 30 days)",
             "Buy Transactions",
             "Sell Transactions",
             "Last Active"
@@ -101,7 +101,6 @@ class SmartMoneyFollower:
             ])
 
         print(tabulate(table_data, headers=headers, tablefmt="pretty"))
-        print("Note: The 'Realized Profit' is represented in SOL.")
 
     def run_strategy(self) -> None:
         """

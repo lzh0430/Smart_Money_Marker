@@ -1,0 +1,18 @@
+mongodb:
+  host: localhost
+  port: 27017
+  database: smart_money_follower
+  collection: sol_wallets
+  username: <username>
+  password: <password>
+
+scraper:
+  timeframe: "1d"
+  wallet_tag: "smart_degen"
+  min_winrate: 0.43  # Configurable winrate threshold
+
+server:
+  host: "0.0.0.0"
+  port: 8443
+  ssl_certfile: null  # Path to SSL cert
+  ssl_keyfile: null   # Path to SSL key

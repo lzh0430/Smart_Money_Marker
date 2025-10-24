@@ -5,3 +5,7 @@ httpx
 tabulate
 python-dotenv 
 requests
+pymongo
+fastapi
+uvicorn[standard]
+pyyaml
